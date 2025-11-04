@@ -14,7 +14,7 @@ import random
 if 'SUMO_HOME' not in os.environ:
     os.environ['SUMO_HOME'] = 'C:\\Program Files (x86)\\Eclipse\\Sumo'
 
-# ==================== EXPERIENCE REPLAY BUFFER ====================
+# ==================== EXPERIENCE REPLAY BUFFER For storing  past values  ====================
 
 class ReplayBuffer:
     """Experience replay buffer for DQN"""
